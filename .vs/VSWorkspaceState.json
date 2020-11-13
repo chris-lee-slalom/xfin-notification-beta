@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\data",
+    "\\data\\routes",
+    "\\data\\routes\\graphql",
+    "\\data\\routes\\graphql\\sample-1",
+    "\\sitecore",
+    "\\sitecore\\definitions",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\GraphQL-ConnectedDemo",
+    "\\src\\components\\Styleguide-RouteFields"
+  ],
+  "SelectedNode": "\\src\\components\\GraphQL-IntegratedDemo\\index.js",
+  "PreviewInSolutionExplorer": false
+}

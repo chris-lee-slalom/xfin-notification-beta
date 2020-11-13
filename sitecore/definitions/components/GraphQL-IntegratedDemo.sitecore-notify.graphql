@@ -1,0 +1,46 @@
+query cardInfo($defaultID: String, $cardID: String) {
+  defaultCard: item(path: $defaultID) {
+    ... on NotificationSubtypes {
+      cardID {
+        value
+      }
+      associatedItem {
+        Fields: targetItem {
+          ... on Xfinnotification {
+            heading {
+              value
+            }
+            desktopImage {
+              value
+            }
+            layout {
+              value
+            }
+          }
+        }
+      }
+    }
+  }
+  aIQCard: item(path: $cardID) {
+    ... on NotificationSubtypes {
+      cardID {
+        value
+      }
+      associatedItem {
+        Fields: targetItem {
+          ... on Xfinnotification {
+            heading {
+              value
+            }
+            desktopImage {
+              value
+            }
+            layout {
+              value
+            }
+          }
+        }
+      }
+    }
+  }
+}
